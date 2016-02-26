@@ -180,3 +180,57 @@ card 拥有 namespace，用来内容过滤与分组
 ### 可加入日历
 
 可以做一个 app，然后接入系统日历
+
+
+实现细节
+---
+
+使用数据库 nedb
+
+使用 http server，express
+
+### 数据库
+
+#### user 表
+
+- id
+- name
+
+#### card 表
+
+- id
+- namespace
+- content
+- labels
+- members
+- state
+- createUser
+- updateUser
+- priority
+- difficulty
+- createTime
+- updateTime
+- startTime
+- duration
+- completeTime
+- deadline
+- CheckList
+- attackment
+- comments
+
+#### activity
+
+- id
+- cardId
+- userId
+- timestamp
+
+#### list 表
+
+- id
+- namespace
+- description
+- cards
+- priority
+- state
+- createTime

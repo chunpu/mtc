@@ -120,6 +120,7 @@ card 拥有 namespace，用来内容过滤与分组
 	- 实际完成时间，建议有
 	- 截止时间，建议有
 - Checklist
+- 链接 数组
 - 附件
 - 成员
 - 评论 笔记 = 自己的评论
@@ -215,7 +216,8 @@ card 拥有 namespace，用来内容过滤与分组
 - completeTime
 - deadline
 - CheckList
-- attackment
+- attackments
+- links
 - comments
 
 #### activity
